@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Ondřej Lohniský <ondrejlohnisky@gmail.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>nexttorrent</id>
+    <name>Next Torrent</name>
+    <summary>Easy to use torrent app for Nextcloud.</summary>
+    <description><![CDATA[Easy to use torrent app for Nextcloud.
+It is capable of selecting default downloading folder and also set a specific folder for specific torrent and it will also let user to chose which files from torrent download.
+Also it will be possible to let the files seed.
+It is in future. :-)]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="ondrejlohnisky@gmail.com" homepage="https://bestcraft.cz">Ondřej Lohniský</author>
+    <namespace>NextTorrent</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/ondrejlohnisky/NextTorrent</bugs>
+    <dependencies>
+        <nextcloud min-version="25" max-version="25"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Next Torrent</name>
+            <route>nexttorrent.page.index</route>
+        </navigation>
+    </navigations>
+</info>
